@@ -1,5 +1,5 @@
 # Dasitools
-Bot no telegram para marcar todos os membros de um setor ou todos os membros do Dasi-USP
+Bot no telegram que acrescenta algumas funções úteis para grupos do DASI-USP
 
 # Deploy:
 	gcloud beta functions deploy webhook --set-env-vars "TELEGRAM_TOKEN=[SECRET]" --runtime python37 --trigger-http
